@@ -1,0 +1,23 @@
+--storesテーブル
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (1, '味噌カツ屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しい味噌カツが食べられます。', '3000 - 7000', '12:00 - 23:00', '073-0145', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (2, '手羽先屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しい手羽先が食べられます。', '3000〜5000', '12:00〜23:00', '030-0945', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (3, 'ひつまぶし屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しいひつまぶしが食べられます。', '3000〜6000', '12:00〜23:00', '029-5618', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (4, '味噌おでん屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しい味噌おでんが食べられます。', '2000〜4000', '12:00〜23:00', '989-0555', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (5, 'どて煮屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しいどて煮が食べられます。', '3000〜8000', '12:00〜23:00', '018-2661', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (6, '味噌煮込みうどん屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しい味噌煮込みうどんが食べられます。', '6000〜7000', '12:00〜23:00', '999-6708', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (7, '名古屋コーチンの店', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しい名古屋コーチン料理が食べられます。', '5000〜7000', '12:00〜23:00', '969-5147', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (8, '小倉トースト屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しい小倉トーストが食べられます。', '4000〜7000', '12:00〜23:00', '310-0021', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (9, 'えび煎餅屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しいえび煎餅が食べられます。', '3000〜4000', '12:00〜23:00', '323-1101', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (10, 'ういろう屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しいういろうが食べられます。', '1000〜7000', '12:00〜23:00' ,'370-0806', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO stores (id, name, image_name, description, price_range, business_hours, postal_code, address, phone_number) VALUES (11, '彩屋', 'IMG_2761-2.jpg', '最寄り駅から徒歩10分。美味しいういろうが食べられます。', '1000〜7000', '12:00〜23:00' ,'370-0806', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+
+
+--usersテーブル
+INSERT IGNORE INTO users (id, name, email, password, postal_code, address, phone_number) VALUE (1, '坂本龍馬', 'aaaaa@gmail.nom', 'aaaaaaaaaa', '123-1234', '愛知県名古屋市熱田区X-XX-XX', '012-345-678')
+INSERT IGNORE INTO users (id, name, email, password, postal_code, address, phone_number) VALUE (2, '西郷隆盛', 'bbbbb@gmail.nom', 'bbbbbbbbbb', '123-4567', '愛知県名古屋市X-XX-XX', '123-456-789')
+
+
+
+--rolesテーブル
+INSERT IGNORE INTO roles (id, name) VALUE (1, 'ROLE_GENERAL')
+INSERT IGNORE INTO roles (id, name) VALUE (2, 'ROLE_ADMIN')
